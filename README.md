@@ -2,6 +2,8 @@
 
 This contains a springboot app for backend and react app for front end.
 
+`backend` contains backend code whereas `demo-app` contains frontend code
+
 when you click the "Explore Movie Database API" button you get the list of movies from the backend database as shown below:
 
 <img width="939" alt="image" src="https://github.com/saurabh-singh-rajput/movie-recommender-app/assets/31354215/373fc45a-c7d2-4dba-a75b-3e5e500ea056">
