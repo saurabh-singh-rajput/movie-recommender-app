@@ -9,5 +9,7 @@ public interface MovieRepository {
 
     public List<Map<String, Object>> getMovieById(Integer movieId);
 
+    public Map<String, Object> getFinalMovie();
+
 
 }

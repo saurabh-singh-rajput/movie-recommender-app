@@ -26,4 +26,9 @@ public class MovieServiceImpl implements MovieService {
     public List<Map<String, Object>> getMovieById(Integer movieId) {
         return movieRepository.getMovieById((Integer) movieId);
     }
+
+    @Override
+    public Map<String,Object> getFinalMovie() {
+        return movieRepository.getFinalMovie();
+    }
 }

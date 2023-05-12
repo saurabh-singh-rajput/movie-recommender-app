@@ -8,4 +8,6 @@ public interface MovieService {
     List<Map<String,Object>> getAllMovies();
     List<Map<String,Object>> getMovieById(Integer movieId);
 
+    Map<String,Object> getFinalMovie();
+
 }

@@ -3,8 +3,32 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
+}
+
+.logo-container {
+  width: 200px;
+  height: 200px;
+}
+
+.logo-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.button-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+  margin-bottom: 20px;
+}
+
+.grid-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -35,4 +59,20 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button {
+  display: inline-block;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 4px;
+  background-color: #61dafb;
+  color: blacks;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #286375;
 }
